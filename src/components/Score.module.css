@@ -1,0 +1,29 @@
+.counter__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+
+  align-items: center;
+}
+
+.counter__owner {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.counter__score {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #f94f6d;
+  background-color: #080001;
+  width: 90px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.counter__buttons {
+  display: flex;
+  min-width: 90px;
+  justify-content: space-around;
+}

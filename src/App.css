@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  font-family: "Roboto", "Oxygen";
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #191c3a;
+  width: 100%;
+  height: 970px;
+}
+
+.counter__wrapper {
+  display: flex;
+}
